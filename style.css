@@ -73,6 +73,17 @@ body {
  }
  #divImg{
    object-position: center;
+   text-align: center; /* Centraliza o conteúdo de texto dentro do container */
+   width: 80%; /* Opcional: define uma largura para ver o efeito */
+   margin: 0 auto; /* Centraliza o próprio container (se tiver largura definida) */
+   border: 1px solid black;
+   width: 300px; /* Largura fixa é essencial */
+   margin: left auto;
+   margin-right: auto; /* Ou use margin: 0 auto; */
+   border: 1px solid #000000;
+   padding: 15px; /* Espaçamento interno */
+  align-items: center;
+  
  }
 /* From Uiverse.io by gharsh11032000 */ 
 .button {
@@ -116,6 +127,7 @@ body {
  .button:active {
    scale: 1;
  }
+ 
  
  
  
